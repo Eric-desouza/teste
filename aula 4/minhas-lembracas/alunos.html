@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- crie um formulário com campos para nome, idade e sexo -->
+
+    <form>
+        <label for="texto">ponha seu relato aqui</label>
+        <input type="text" required><br><br>
+
+        <button onclick="enviarFormulario()" id="button">Enviar minhas lembranças</button>
+    </form>
+
+</body>
+<style>
+    #button {
+        color: #fff;
+        border-radius: 15px;
+        background-color: #000;
+        transition: .5s;
+    }
+    #button:hover {
+        color: crimson;
+        transform: scale(1.1);
+    }
+</style>
+<script>
+    function enviarFormulario() {
+        alert("lembranças enviadas com sucesso!")
+    }
+</script>
+</html>

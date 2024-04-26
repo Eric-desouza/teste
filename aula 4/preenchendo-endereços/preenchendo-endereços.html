@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preenchendo Endereços</title>
+</head>
+<body>
+    <!-- crie um formulário com campos para nome, idade e sexo -->
+
+    <form>
+        <label for="rua">Rua</label>
+        <input type="text" required><br><br>
+
+        <label for="number">Número</label>
+        <input type="number" required><br><br>
+        
+        <label for="bairro">Bairro</label>
+        <input type="bairro" required><br><br>
+        
+        <label for="city">Cidade</label>
+        <input type="city" required><br><br>
+
+        <label for="estado">Estado</label>
+        <input type="estado" required><br><br>
+
+        <select>
+            <option value="RJ">Rio de Janeiro</option>
+        </select>
+
+        <br> <br>
+        <button onclick="enviarFormulario()" id="button">Enviar </button>
+    </form>
+
+</body>
+<style>
+    #button {
+        color: #fff;
+        border-radius: 15px;
+        background-color: #000;
+        transition: .5s;
+    }
+    #button:hover {
+        color: crimson;
+        transform: scale(1.1);
+    }
+</style>
+<script>
+    function enviarFormulario() {
+        alert("“O endereço de entrega é o mesmo de cobrança")
+    }
+</script>
+</html>

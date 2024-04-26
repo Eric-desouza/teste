@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Formulário de Inscrição</title>
+</head>
+<body>
+
+<h1>Formulário de Inscrição</h1>
+
+<form action="https://localhost:3003/alunos"
+
+<form action="/submit_form" method="post">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" required><br>
+  
+  <label for="idade">Idade:</label><br>
+  <input type="number" id="idade" name="idade" min="0" required><br>
+  
+  <label for="sexo">Sexo:</label><br>
+  <select id="sexo" name="sexo" required>
+    <option value="feminino">Feminino</option>
+    <option value="masculino">Masculino</option>
+    <option value="outro">Outro</option>
+  </select><br>
+  
+ <br> <input type="submit" value="matricular">
+</form>
+
+</body>
+</html>

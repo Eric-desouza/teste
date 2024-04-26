@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Comandos Markdown</title>
+</head>
+<body>
+<h1>Comandos Markdown</h1>
+<ul>
+  <li>
+    <strong>Negrito</strong>
+    <ul>
+      <li>Sintaxe: <code>*texto*</code></li>
+      <li>Exemplo: <strong>texto em negrito</strong></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Itálico</strong>
+    <ul>
+      <li>Sintaxe: <i>texto</i> </li>
+      <li>Exemplo: <em>texto em itálico</em></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Cabeçalhos</strong>
+    <ul>
+      <li>Sintaxe: <code> Cabeçalho 1</code></li>
+      <li>Exemplo: <h3>Cabeçalho 1</h3></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Links</strong>
+    <ul>
+      <li>Sintaxe: <code>texto do link</code></li>
+      <li>Exemplo: <a href="https://www.example.com">texto do link</a></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Imagens</strong>
+    <ul>
+      <li>Sintaxe: <code>!texto alternativo</code></li>
+      <li>Exemplo: <img src="https://www.example.com/image.png" alt="texto alternativo"></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Listas</strong>
+    <ul>
+      <li>Sintaxe: <code>- item</code></li>
+      <li>Exemplo: 
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>Código</strong>
+    <ul>
+      <li>Sintaxe: <code>código</code></li>
+      <li>Exemplo: <code>código online</code></li>
+    </ul>
+  </li>
+  <li>
+    <strong>Citação</strong>
+    <ul>
+      <li>Sintaxe: <code>> citação</code></li>
+      <li>Exemplo: <blockquote>citação</blockquote></li>
+    </ul>
+  </li>
+</ul>
+</body>
+</html>

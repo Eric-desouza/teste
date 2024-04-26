@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Escolha Sua Faculdade</title>
+</head>
+<body>
+<header>
+  <h1>Escolha Sua Faculdade</h1>
+  <p>Encontre a faculdade perfeita com base na sua pontuação do Enem.</p>
+</header>
+
+<section>
+  <h2>Faculdades e Cursos</h2>
+  <article>
+    <h3>Universidade de São Paulo (USP)</h3>
+    <p>Medicina: Nota mínima no Enem - 750</p>
+    <p>Engenharia Civil: Nota mínima no Enem - 700</p>
+    <!-- Adicione mais cursos e notas conforme necessário -->
+  </article>
+
+  <article>
+    <h3>Universidade Estadual de Campinas (UNICAMP)</h3>
+    <p>Direito: Nota mínima no Enem - 720</p>
+    <p>Psicologia: Nota mínima no Enem - 680</p>
+    <!-- Adicione mais cursos e notas conforme necessário -->
+  </article>
+
+  <!-- Repita o padrão para outras universidades e cursos -->
+</section>
+
+<footer>
+  <p>© 2024 Escolha Sua Faculdade</p>
+</footer>
+</body>
+</html>
